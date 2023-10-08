@@ -15,5 +15,13 @@ class GuessingGame {
         return this.result;
     }
 
-    
+    lower() {
+        this.max = this.result;
+    }
+
+    greater() {
+        this.min = this.result;
+    }
+}
+
 module.exports = GuessingGame;
